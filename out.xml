@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <struct name="Person">
+    <field name="Evgenij" />
+    <dumy />
+    <field name="ege" />
+</struct>
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- выше обьявление xml -->
+<struct name="Person">
+    <field name="Evgenij" type="string" />
+    <dumy />
+    <field name="ege" type="int" />
+</struct>
